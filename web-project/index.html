@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My amazing website</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="./logic.js" defer></script>
+  </head>
+  <body>
+    <h1>Q1</h1>
+    <div id="q1">
+      <h1>The awesome website</h1>
+        <div id="sol1">
+          <h2>Interesting stuff</h2>
+          <ul>
+            <li>Programming
+              <ol>
+                <li>Java</li>
+                <li>Ptyhon</li>
+                <li>html</li>
+              </ol>
+            </li>
+            <li>Football
+              <ol>
+                <li>Maccabi Tel Aviv</li>
+                <li>Barcelona</li>
+                <li>Manchester United</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <hr>
+
+    <h1>Q2</h1>
+    <div id="q2">
+      <p>
+        <strong>This is a paragraph about <em>Programming</em> and <em>Football</em></strong><br>
+        In programming I really like to write in <em>Python</em><br>
+        In football I really like <span style="color: blue;">Maccabi Tel Aviv</span> and <span style="color: rgb(255, 0, 0, 1);">Manchester United</span><br>
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/221218184732-messi-wc-trophy.jpg?c=original" alt="I really like Messi" style="width: 150px; height: auto;"><br>
+        If you want to see more photos visit my IG at <a href="https://www.instagram.com/amitfld" target="_blank"><i class="fab fa-instagram"></i> amitfld</a>
+      </p>
+    </div>
+    <hr>
+
+    <h1>Q3</h1>
+    <div id="q3">
+      <table>
+        <thead>
+          <tr>
+            <th style="border: 1px solid black;"></th>
+            <th style="border: 1px solid black;">0</th>
+            <th style="border: 1px solid black;">1</th>
+            <th style="border: 1px solid black;">2</th>
+            <th style="border: 1px solid black;">3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th style="border: 1px solid black;">0</th>
+            <td colspan="4" style="text-align: center; border: 1px solid black;">0</td>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black;">1</th>
+            <td rowspan="3" style="vertical-align: middle; text-align: center; border: 1px solid black;">0</td>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">3</td>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black;">2</th>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">6</td>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black;">3</th>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">6</td>
+            <td style="border: 1px solid black;">9</td>
+          </tr>
+          <tfoot>
+            <tr><th colspan="5" style="text-align: center; border: 1px solid black;" ><p>multiplication table</p></th></tr>
+          </tfoot>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+
+    <h1>Q4</h1>
+    <div id="q4">
+      <form>
+        <label for="username"><strong>Username:</strong></label><br>
+        <input type="text" id="username"><br>
+        <label for="password"><strong>Password:</strong></label><br>
+        <input type="password" id="password"><br>
+        <label for="email"><strong>Email:</strong></label><br>
+        <input type="email" id="email"><br>
+        <label for="age"><strong>Age:</strong></label><br>
+        <input type="number" id="age"><br>
+        <label for="Herzliya">Herzliya</label>
+        <input type="checkbox" name="cities" id="Herzliya"><br>
+        <label for="Tel-Aviv">Tel Aviv</label>
+        <input type="checkbox" name="cities" id="Tel-Aviv"><br>
+        <label for="Eilat">Eilat</label>
+        <input type="checkbox" name="cities" id="Eilat"><br>
+        <label for="satisfaction"><strong>Satisfaction level</strong></label><br>
+        <input type="range" id="satisfaction" min="1" max="5" step="1" value="3"><br>
+        <label for="fav_color"><strong>Favorite Color</strong></label><br>
+        <input type="color" id="fav_color" value="#0000FF"><br><br>
+        <input type="button" id="submit" value="submit" onclick="validate_form()">
+      </form>
+    </div>
+    <hr>
+
+    <h1>Q5</h1>
+    <div id="q5">
+      <div class="hidden" style="display: none;">
+        <a href="https://www.runi.ac.il" class="valid" style="display: block;">This is a valid link</a>
+        <a href="https://www.ohadf.com/" class="malicious" style="display: block;">This is a malicious link</a>
+        <a href="https://vcs.ap.runi.ac.il" class="valid" style="display: block;">another valid link</a>
+        <a href="https://www.bezeq.co.il/internetandphone/internet/speedtest/" class="malicious" style="display: block;">another malicious link</a>
+        <a href="https://rickroll.it/rickroll.mp4" class="valid" style="display: block; color: white;">secret valid link</a>
+        <a href="https://github.com/lersi" class="malicious" style="display: block; color: white;">secret malicious link</a>
+      </div>
+    </div>
+    <input type="button" id="q5button" value="Test Q5" onclick="solution_js_query();">
+    <hr>
+
+    <h1>Q6</h1>
+    <div id="q6">
+    </div>
+    <input type="button" id="q6button" value="Test Q6" onclick="solution_js_dynamic_elements();">
+    <hr>
+
+    <h1>Q7</h1>
+    <div id="q7">
+      <div class="button" id="div_btn"><label>Click Me</label></div>
+    </div>
+    <input type="button" id="q7button" value="Test Q7" onclick="solution_js_event_listeners();">
+    <hr>
+
+    <h1>Q8</h1>
+    <div id="q8">
+      <form id="unit_converter">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">Unit Converter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Convert from
+              </td>
+              <td>
+                <input type="text" name="convertion_input" id="convertion_input" />
+              </td>
+              <td>
+                <select name="convert_from_unit" id="convert_from_unit">
+                  <option value="cm">cm</option>
+                  <option value="meter">meter</option>
+                  <option value="inch">inch</option>
+                  <option value="foot">foot</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Convert to
+              </td>
+              <td>
+                <input type="text" name="convertion_output" id="convertion_output">
+              </td>
+              <td>
+                <select name="convert_to_unit" id="convert_to_unit">
+                  <option value="cm">cm</option>
+                  <option value="meter">meter</option>
+                  <option value="inch">inch</option>
+                  <option value="foot">foot</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td style="align-items: center;"><input type="button" id="convert_btn" value="convert" onclick="solution_js_unit_converter()"></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+    </div>
+    <hr>
+
+    <h1>Q9</h1>
+    <div id="q9">
+      <div id="lime_paragraph">
+        <section class="lime_paragraph">
+          <h6>Lime paragraphs</h6>
+          <p>This text should be lime</p>
+          <p class="lime_paragraph">This should also be lime</p>
+          <label>This text should be black</label>
+          <div>
+            <p>This text should also be black</p>
+          </div>
+        </section>
+        <div>
+          <section class="lime_paragraph">
+            <p>This text should also be black</p>
+          </section>
+        </div>
+        <p>This text should also be black</p>
+      </div>
+      <div id="blue_background">
+        <section class="lime_paragraph">
+          <p blue>This text should be black with blue background</p>
+          <p>This text should have regular background</p>
+        </section>
+      </div>
+      <div id="clear_from_color">
+        <section class="lime_paragraph">
+          <p blue>This text should be black with regular background</p>
+        </section>
+      </div>
+    </div>
+    <hr>
+
+    <h1>Q10</h1>
+    <div id="q10">
+      <div class="redcontent" id="q10-div1">
+        <p>This text should be red.</p>
+        <p class="text_after">There should be text after this. </p>
+        <div>
+          <p>This text should remain black</p>
+        </div>
+      </div>
+      <div class="redcontent" id="q10-div2">
+        <pre class="text_after">This text should be black</pre>
+        <p>This text should remain black</p>
+      </div>
+      <div class="reference_div" id="q10-div3">
+        <p class="text_after">This text should remain black</p>
+      </div>
+    </div>
+    <hr>
+
+    <h1>Q11</h1>
+    <div id="q11">
+      <div id="css-flex-1" class="div-grid">
+        <div id="q11-div-1" style="background-color: red;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-2" style="background-color: green;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-3" style="background-color: black;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-4" style="background-color: blue;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-5" style="background-color: yellow;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-6" style="background-color: gray;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-7" style="background-color: purple;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-8" style="background-color: orange;padding: 30px;border: 1px solid black;"></div>
+        <div id="q11-div-9" style="background-color: white;padding: 30px;border: 1px solid black;"></div>
+      </div>
+    </div>
+  </body>
+</html>
