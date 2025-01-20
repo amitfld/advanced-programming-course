@@ -12,6 +12,5 @@ The Advanced Programming course, led by Dr. Ohad Fried, focuses on broadening pr
 - Web development (HTML, CSS, JavaScript)
 
 ## Projects
-### 1. [Java Project](https://github.com/amitfld/advanced-programming-course/tree/main/java-project)
-- Description: A Java project focused on advanced file I/O operations, including persistent storage, byte-level file manipulation, and custom data decoding.
+### - [Java Project](https://github.com/amitfld/advanced-programming-course/tree/main/java-project): Collection and files
 - Key Skills: File I/O, binary data processing, algorithmic problem-solving.
