@@ -12,6 +12,6 @@ The Advanced Programming course, led by Dr. Ohad Fried, focuses on broadening pr
 - Web development (HTML, CSS, JavaScript)
 
 ## Projects
-### Java Project
+1. ### Java Project
 Description:
 Key Skills:
