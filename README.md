@@ -13,3 +13,4 @@ The Advanced Programming course, led by Dr. Ohad Fried, focuses on broadening pr
 
 ## Projects
 - **Java Project - Collections and Files**
+- - Key Skills: File I/O, binary data processing
